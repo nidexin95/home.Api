@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="System\Dto\" />
+    <Folder Include="System\Service\" />
+    <Folder Include="System\IService\" />
+    <Folder Include="System\Profiles\" />
+    <Folder Include="User\Dto\" />
+    <Folder Include="User\IService\" />
+    <Folder Include="User\Service\" />
+    <Folder Include="User\Profiles\" />
+  </ItemGroup>
+
+</Project>
