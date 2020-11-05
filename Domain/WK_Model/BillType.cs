@@ -16,7 +16,7 @@ namespace Domain.WK_Model
         /// <summary>
         /// 图标ID(对应MongoDB，目前MongoDB还没有做，以后再实现，目前保存相片名称)
         /// </summary>
-        [StringLength(5)]
+        [StringLength(100)]
         public string IconId { get; set; }
     }
 }

@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W_K_Bill", "W_K_Bill\W_K_Bill.csproj", "{21D0D9A7-B9D7-45F4-ABD9-AB9104ADCF78}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WK_Bill_api", "WK_Bill_api\WK_Bill_api.csproj", "{5343F7CB-4873-48AF-9D12-3BBC944F71EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WK_Bill_mvc", "WK_Bill_mvc\WK_Bill_mvc.csproj", "{505F1230-3B38-4078-9888-220DE9CC2F42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{21D0D9A7-B9D7-45F4-ABD9-AB9104ADCF78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21D0D9A7-B9D7-45F4-ABD9-AB9104ADCF78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21D0D9A7-B9D7-45F4-ABD9-AB9104ADCF78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5343F7CB-4873-48AF-9D12-3BBC944F71EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5343F7CB-4873-48AF-9D12-3BBC944F71EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5343F7CB-4873-48AF-9D12-3BBC944F71EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5343F7CB-4873-48AF-9D12-3BBC944F71EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{505F1230-3B38-4078-9888-220DE9CC2F42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{505F1230-3B38-4078-9888-220DE9CC2F42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{505F1230-3B38-4078-9888-220DE9CC2F42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{505F1230-3B38-4078-9888-220DE9CC2F42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
