@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "home.Api", "home.Api\home.Api.csproj", "{F9E53B33-F29D-4B3E-B1D0-A2200475C01B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{E7FA11D9-00CA-4DFE-A750-3884F992D6E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{E7FA11D9-00CA-4DFE-A750-3884F992D6E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{59B0C6C8-63CC-49AF-AA9A-03B8CE423ED3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{59B0C6C8-63CC-49AF-AA9A-03B8CE423ED3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{B6EA3E53-2B32-4962-9742-F36D01B47DDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{B6EA3E53-2B32-4962-9742-F36D01B47DDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W_K_Bill", "W_K_Bill\W_K_Bill.csproj", "{21D0D9A7-B9D7-45F4-ABD9-AB9104ADCF78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{B6EA3E53-2B32-4962-9742-F36D01B47DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6EA3E53-2B32-4962-9742-F36D01B47DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6EA3E53-2B32-4962-9742-F36D01B47DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21D0D9A7-B9D7-45F4-ABD9-AB9104ADCF78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D0D9A7-B9D7-45F4-ABD9-AB9104ADCF78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D0D9A7-B9D7-45F4-ABD9-AB9104ADCF78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D0D9A7-B9D7-45F4-ABD9-AB9104ADCF78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
