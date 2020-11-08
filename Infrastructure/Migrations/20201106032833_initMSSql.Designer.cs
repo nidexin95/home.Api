@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrastructure.Migrations
 {
     [DbContext(typeof(WkBillContext))]
-    [Migration("20201105084757_updateData2")]
-    partial class updateData2
+    [Migration("20201106032833_initMSSql")]
+    partial class initMSSql
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

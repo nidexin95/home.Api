@@ -11,7 +11,7 @@ namespace Infrastructure.EntityFrameWorkCore.SQLServer
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(
-                "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=master;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+                "Data Source=DESKTOP-BA7S9O3;Initial Catalog=WK_Bill;Integrated Security=True;");
         }
 
         public DbSet<Disburse> Disburses { get; set; }

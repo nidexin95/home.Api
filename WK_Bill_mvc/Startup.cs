@@ -2,6 +2,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Application.WK_Servcie.IService;
+using Application.WK_Servcie.Service;
+using AutoMapper;
+using Domain.Core;
+using Infrastructure.EntityFrameWorkCore.SQLServer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -24,6 +29,9 @@ namespace WK_Bill_mvc
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddDbContext<WkBillContext>();
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+            services.AddScoped<IAddRevenueService, AddRevenueService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

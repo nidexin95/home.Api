@@ -20,7 +20,7 @@ namespace Domain.WK_Model
         /// <summary>
         /// 收支时间（创建时间）
         /// </summary>
-        public DateTime BillTime { get; set; }
+        public DateTime BillTime { get; set; } = DateTime.Now;
         /// <summary>
         /// 收支指定的年份
         /// </summary>
